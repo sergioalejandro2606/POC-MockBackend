@@ -1,0 +1,115 @@
+
+# ==========================================
+# ASP.NET Core Web API - .NET 10
+# ==========================================
+
+# Compilación de .NET
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Carpetas de publicación
+publish/
+[Pp]ublish/
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Archivos generados por Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Archivos temporales y logs
+*.log
+logs/
+Log/
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Certificados y claves privadas
+*.pfx
+*.p12
+*.key
+*.pem
+*.cer
+*.crt
+*.snk
+
+# Perfiles de publicación con credenciales
+*.publishsettings
+
+# Cobertura de pruebas
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# Herramientas de testing
+.playwright/
+playwright-report/
+test-results/
+
+# Archivos de paquetes NuGet generados localmente
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Bases de datos locales
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker: archivos locales de overrides
+docker-compose.override.yml
+.env.docker
+
+# Archivos de respaldo
+*.orig
+*.rej
+*.old
+
+# Archivos de configuración de usuario
+appsettings.*.local.json
